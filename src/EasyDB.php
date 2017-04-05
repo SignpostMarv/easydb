@@ -262,7 +262,7 @@ class EasyDB
                             )
                         );
                     }
-                    $join[] = (int) $v + 0;
+                    $join[] = $v;
                     break;
                 case 'float':
                 case 'decimal':
